@@ -9,21 +9,36 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
     <title>Netflix</title>
   </head>
   <body>
     <main>
       <img src="Netflix-logo.png" class="logo" alt="Logo" />
-      <button>Sign in</button>
-      <h1>Unlimited movies, TV <br />shows, and more.</h1>
-      <h2>Watch anywhere. Cancel anytime.</h2>
-      <div>
-        Ready to watch? Enter your email to create or restart your membership.
+      <button class="signIn btn">Sign in</button>
+      <div class="container">
+        <div class="submit">
+          <h1>Unlimited movies, TV <br />shows, and more.</h1>
+          <div class="subheader">Watch anywhere. Cancel anytime.</div>
+          <div class="membership">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </div>
+          <input type="email" class="email" placeholder="   Email address" />
+          <button class="trial btn">TRY 30 DAYS FREE ></button>
+          <div class="subtext">
+            Only new members are eligible for this offer.
+          </div>
+        </div>
       </div>
-      <input type="email" placeholder="Email address" />
-      <button>TRY 30 DAYS FREE</button>
-      <div>Only new members are eligible for this offer.</div>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
