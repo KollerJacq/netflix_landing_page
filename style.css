@@ -19,7 +19,7 @@ body {
 .signIn {
   display: flex;
   align-items: center;
-  background-color: red;
+  background-color: #e50914;
   color: #fff;
   width: 80px;
   height: 30px;
@@ -28,6 +28,12 @@ body {
   right: 40px;
   padding: 5px 10px;
   justify-content: center;
+}
+.signIn:hover,
+.trial:hover {
+  background-color: #c11119;
+  color: #fff;
+  transition: all 1sec ease-in-out;
 }
 
 .container {
@@ -61,7 +67,7 @@ h1 {
   margin-left: -50px;
 }
 .trial {
-  background-color: red;
+  background-color: #e50914;
   font-size: 28px;
   color: #fff;
   border-radius: 0;
