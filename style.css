@@ -11,7 +11,7 @@ body {
 
 .logo {
   position: absolute;
-  top: -50px;
+  top: -40px;
   left: 40px;
   width: 10%;
 }
@@ -33,7 +33,7 @@ body {
 .trial:hover {
   background-color: #c11119;
   color: #fff;
-  transition: all 1sec ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .container {
