@@ -80,9 +80,14 @@ form {
   border-radius: 0;
   height: 60px;
   width: 330px;
+  margin-left: 2px;
 }
 .membership,
 .subtext {
   font-size: 22px;
   margin-top: 25px;
+}
+.unvalid {
+  color: #e50914;
+  display: none;
 }
